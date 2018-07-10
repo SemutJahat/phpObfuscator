@@ -67,7 +67,6 @@ class PHPEncryptor {
 		return $output_encode;
 	}
 }
-
 $Crypt = new PHPEncryptor();
 if(!$_SERVER[argv][1] || !$_SERVER[argv][2]){
 	$Crypt->Help();
